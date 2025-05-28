@@ -50,3 +50,14 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+[Rr][Ee][Aa][Dd][Mm][Ee]
+*.zip
+*.
+*.jpg
+*.mp4
+*.ini
+*.json
+*.code-workspace
+
+*.cpp
