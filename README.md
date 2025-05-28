@@ -1,6 +1,3 @@
-# CO321_EMBEDDED_SYSTEMS_LABS
-Labs Conducted In the Department of Computer Engineering, Faculty Of Engineering, University of Peradeniya for the Course CO321 Embedded Systems
-
 # CO321 Embedded Systems Labs
 
 This repository contains lab materials, code, and resources for the CO321 Embedded Systems course conducted by the Department of Computer Engineering, Faculty of Engineering, University of Peradeniya.
