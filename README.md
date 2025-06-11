@@ -28,16 +28,20 @@ This repository contains lab materials, code, and resources for the CO321 Embedd
 │   ├── CO321 Lab 3 - Timers..pdf
 │   └── Code/
 │       └── Lab3/
-│           ├── src/
-│           │   ├── exercise1.c
-│           │   ├── exercise2.c
-│           │   ├── exercise3.c
-│           │   ├── exercise4.c
-│           │   ├── exercise5.c
-│           │   ├── exercise6.c
-│           │   ├── example1.c
-│           │   └── example2.c
-
+│           └──src/
+│               ├── exercise1.c
+│               ├── exercise2.c
+│               ├── exercise3.c
+│               ├── exercise4.c
+│               ├── exercise5.c
+│               ├── exercise6.c
+│               ├── example1.c
+│               └── example2.c
+├── Lab 04/
+│   ├── Lab 4 - PWM.pdf
+│   └── src/
+│       ├── Lab4Exercise1.c
+│       └── Lab4Exercise2.c
 ├── Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf
 ├── README.md
 └── .gitignore
@@ -62,6 +66,13 @@ This repository contains lab materials, code, and resources for the CO321 Embedd
 - **Code:** 
   - `exercise1.c` to `exercise6.c`: Timer-based LED blinking, maximum interval calculations, and advanced timer usage.
   - `example1.c`, `example2.c`: Reference timer delay implementations.
+
+### Lab 04 : AVR PWM Programming in C Language
+- **Objective:** Explore how Pulse Widtch Modulation (PWM), can be done using AVR microcontrollers.
+- **Code:** 
+  - `Lab4Exercise1.c`: Generates a PWM waveform at ~976.56Hz with a 50% duty cycle to compare LED brightness between PWM and constant 5V.
+  - `Lab4Exercise2.c`: Extends the PWM program to smoothly fade an LED on and off in a repeating cycle.
+  - `Lab4Exercise3.c`: Uses PWM to drive a piezo buzzer, generating four distinct audible frequencies in sequence, each played for a noticeable duration.
 
 ### Common Files
 - **Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf:** Reference datasheet for the ATmega328P microcontroller.
