@@ -3,6 +3,8 @@
 
 
 // TIMER0: 50ms blink (prescaler 1024, 1 overflow = 256*64us = 16.384ms, need 3 overflows for ~50ms)
+//Using 12.5 ms delay, we can achieve 50ms by toggling the LED every 4 overflows
+//Starter count = 61 (256 - 195) to achieve ~12.5ms delay as one increment takes 64us, so 64us * 195 = 12.48ms
 #define TIMER0_INIT 61   // Start from 61 to acheive ~50ms delay (4*12.5ms = 50ms)
 volatile uint8_t t0_count = 0; 
 
